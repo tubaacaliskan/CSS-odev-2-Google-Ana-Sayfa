@@ -1,0 +1,112 @@
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+width: 40% ;
+position:sticky;
+}
+
+.container {
+    background-color: rgb(235, 227, 227);
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    
+}
+
+.container p{
+    text-align: center;
+    margin: 0;
+    
+}
+
+.container .box {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    width: 35%;
+    margin: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+   
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn button {
+    
+    margin: 0px 2px;
+    border-radius: 0%;
+    border-style: outset    ;
+    border-width: 1px;
+    background-color: rgb(194, 194, 194);
+}
+
+.footer-container   {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.left-box   {
+    background-color: rgb(127, 255, 234);
+    text-align: center;
+    width: 40%;
+    margin: 1px;
+}
+
+
+.left-box ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.medium-box {
+    background-color: rgb(108, 219, 201);;
+    width: 20%;
+    text-align: center;
+    margin: 1px 0px;
+}
+
+.medium-box ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    
+}
+
+.right-box  {
+    background-color:rgb(86, 177, 162);
+    width: 40%;
+    text-align: center; 
+    margin: 1px; 
+}
+
+.right-box p {
+    margin: 3px;
+}
+
+
+
+.btn-box button {
+    border-radius: 0px;
+    border-width: 1px;
+    background-color: rgb(194, 194, 194);
+    
+}
+
+
+.footer {
+    text-align: center;
+}
